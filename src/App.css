@@ -1,0 +1,99 @@
+.continar{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3vw;
+  gap: 10px;
+  width: 100%;
+}
+.card{
+ flex-direction: column;
+ flex-wrap: wrap;
+  width: 25vw;
+  border: 1px solid #EAB308;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.btn{
+  border-radius: 10px;
+  width: 8vw;
+  background-color: rgb(222, 222, 222);
+  padding: 3px;
+}
+.car-bt{
+  display: flex;
+  flex-direction: column;
+  gap:9px;
+  align-items: center;
+}
+img{
+  width: 10vw;
+}
+.navbar{
+  background-color: rgb(41, 40, 40);
+  color:white;
+  display: flex;
+  justify-content: space-around;
+}
+li{
+  display: inline;
+}
+.sea{
+  display: flex;
+  justify-content: center;
+}
+.container-us {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-div {
+  margin-bottom: 15px;
+}
+
+.form-div label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-div input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #EAB308;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: white;
+}
+.acou{
+  text-align: center;
+  padding: 3px;
+  margin-top: 14px;
+}
+.image{
+  width: 20vw;
+  height: auto;
+}
