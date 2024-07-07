@@ -16,9 +16,9 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <a href="#" className="text-base font-bold text-yellow-500 list-none hover:text-gray-900"
+                    <Link to="/cheackout/:id" className="text-base font-bold text-yellow-500 list-none hover:text-gray-900"
                         target="_blank">Checkout
-                    </a>
+                    </Link>
                 </li>
             </div>
             <div className="hidden gap-4 md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
